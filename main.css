@@ -447,7 +447,8 @@ p {
 }
 
 .socials__item--telegram .socials__link:hover {
-  background-image: url("./img/icons/telegram-hover.png");
+  background-image: url("./img/icons/telegram.png");
+  filter: brightness(3.5);
 }
 
 .socials__item--vk .socials__link {
@@ -455,7 +456,8 @@ p {
 }
 
 .socials__item--vk .socials__link:hover {
-  background-image: url("./img/icons/vk-hover.png");
+  background-image: url("./img/icons/vk.png");
+  filter: brightness(3.5);
 }
 
 .socials__item--fb .socials__link {
@@ -463,7 +465,8 @@ p {
 }
 
 .socials__item--fb .socials__link:hover {
-  background-image: url("./img/icons/f-hover.png");
+  background-image: url("./img/icons/f.png");
+  filter: brightness(3.5);
 }
 
 .socials__item--insta .socials__link {
@@ -471,7 +474,8 @@ p {
 }
 
 .socials__item--insta .socials__link:hover {
-  background-image: url("./img/icons/in-hover.png");
+  background-image: url("./img/icons/in.png");
+  filter: brightness(3.5);
 }
 
 .contacts__footer {
