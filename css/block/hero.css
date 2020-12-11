@@ -1,0 +1,46 @@
+.hero {
+  margin-bottom: 192px;
+}
+
+.hero__text-section {
+  width: 48%;
+}
+
+.hero__title {
+  font-size: 58px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  color: #D3A557;
+  margin-bottom: 42px;
+}
+
+.btn {
+  width: 166px;
+  display: inline-block;
+  background: #DFB56D;
+  border-radius: 3px;
+  padding: 18px 40px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn--color--ginger:hover {
+  background: #D3A557;
+  box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15);
+}
+
+.btn--color--black {
+  background: #2B2B2B;
+}
+
+.btn--color--black:hover {
+  background: #DFB56D;
+}

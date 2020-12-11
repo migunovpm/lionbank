@@ -1,0 +1,9 @@
+@import url('/css/layout/normalize.css');
+@import url('/css/layout/base.css');
+
+@import url('/css/block/header.css');
+@import url('/css/block/hero.css');
+@import url('/css/block/offers.css');
+@import url('/css/block/news.css');
+@import url('/css/block/about.css');
+@import url('/css/block/footer.css');
