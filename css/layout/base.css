@@ -73,6 +73,6 @@ table {
 }
 
 .main-page-wrapper {
-  background: url("../img/bg/lion-header.jpg") center top no-repeat, url("../img/bg/lion-small.png") right bottom 307px no-repeat;
+  background: url("/img/bg/lion-header.jpg") center top no-repeat, url("/img/bg/lion-small.png") right bottom 307px no-repeat;
   overflow: hidden;
 }
