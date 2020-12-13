@@ -6,7 +6,7 @@
   height: 152px;
   position: relative;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .footer__col {
@@ -15,7 +15,7 @@
 }
 
 .footer__col--align--right {
- 
+ justify-content: flex-end;
 }
 
 .socials {
@@ -82,4 +82,17 @@
 
 .contacts__footer .contscts__desc{
   margin-bottom: 5px;
+}
+
+/* Services */
+.footer-container__section {
+  height: 140px;
+}
+
+.inner-footer__container {
+  padding: 45px 0;
+}
+
+.inner-footer {
+  margin-top: auto;
 }
