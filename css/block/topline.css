@@ -42,6 +42,7 @@
 .breadcrubs__item:after {
   content: "/";
   color: #9A9A9A;
+  margin: 0 5px;
 }
 
 .breadcrubs__item:last-child:after {

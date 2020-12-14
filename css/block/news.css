@@ -52,20 +52,25 @@
 
 .pager {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pager__display, .pager__list {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
 }
 
 .pager__display {
   margin-right: 26px;
 }
 
+.pager__display span {
+  margin: 0 5px;
+}
+
 .pager__item {
-  display: inline-block;
-  vertical-align: middle;
+  display: inline-flex;
 }
 
 .pager__item--active .pager__link{

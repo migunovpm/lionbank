@@ -19,11 +19,12 @@
 }
 
 .socials {
-  margin-right: 74px;
+  margin-right: 75px;
+  display: flex;
 }
 
 .socials__link {
-  display: block;
+  display: inline-flex;
   text-decoration: none;
   width: 36px;
   height: 36px;
@@ -31,9 +32,8 @@
 }
 
 .socials__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 6px;
+  display: inline-flex;
+  margin-right: 9px;
 }
 
 .socials__item:last-child {
