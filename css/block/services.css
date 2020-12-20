@@ -15,10 +15,12 @@
 }
 
 .service:hover {
+  transition: 1s;
   background: #F2F2F2;
 }
 
 .service:hover .service__btn {
+  transition: 1s;
   background: #DFB56D;
 }
 
@@ -55,4 +57,5 @@
 .pager--theme--light .pager__link:hover{
   color: #fff;
   background: #353439;
+  transition: 1s;
 }

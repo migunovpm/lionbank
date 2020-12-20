@@ -35,6 +35,7 @@
 .btn--color--ginger:hover {
   background: #D3A557;
   box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15);
+  transition: 1s;
 }
 
 .btn--color--black {
@@ -43,4 +44,5 @@
 
 .btn--color--black:hover {
   background: #DFB56D;
+  transition: 1s;
 }

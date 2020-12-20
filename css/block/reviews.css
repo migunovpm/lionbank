@@ -189,6 +189,7 @@
 }
 
 .btn--color--grey:hover {
+  transition: 1s;
   background: #2B2B2B;
 }
 

@@ -64,6 +64,7 @@
 
 .menu__link:hover {
   color: #D3A557;
+  transition: 1s;
 }
 
 .contacts__phone {
@@ -122,5 +123,4 @@
 .contacts__dropdown-title:hover ~ .contacts_schedule {
   opacity: 1;
   right: 0;
-  transition: ease;
 }

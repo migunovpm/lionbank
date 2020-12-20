@@ -79,6 +79,7 @@
 
 .pager__link:hover {
   background: #353439;
+  transition: 1s;
 }
 
 .pager__link {

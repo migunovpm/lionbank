@@ -47,6 +47,7 @@
 .socials__item--telegram .socials__link:hover {
   background-image: url("../../img/icons/telegram.png");
   filter: brightness(3.5);
+  transition: 1s;
 }
 
 .socials__item--vk .socials__link {
@@ -56,6 +57,7 @@
 .socials__item--vk .socials__link:hover {
   background-image: url("../../img/icons/vk.png");
   filter: brightness(3.5);
+  transition: 1s;
 }
 
 .socials__item--fb .socials__link {
@@ -65,6 +67,7 @@
 .socials__item--fb .socials__link:hover {
   background-image: url("../../img/icons/f.png");
   filter: brightness(3.5);
+  transition: 1s;
 }
 
 .socials__item--insta .socials__link {
@@ -74,10 +77,12 @@
 .socials__item--insta .socials__link:hover {
   background-image: url("../../img/icons/in.png");
   filter: brightness(3.5);
+  transition: 1s;
 }
 
 .contacts__footer {
   top: 19px;
+  position: static;
 }
 
 .contacts__footer .contscts__desc{
