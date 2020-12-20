@@ -28,6 +28,7 @@
 }
 
 .contacts {
+  position: relative;
   font-style: normal;
   text-align: right;
   line-height: 1;
@@ -76,4 +77,50 @@
   text-decoration: underline;
   color: #D3A557;
   cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.contacts_schedule {
+  position: relative;
+  background: #EDEDED;
+  padding: 12px 21px;
+  opacity: 0.8;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  bottom: -68px;
+  line-height: 1.8;
+  text-align: left;
+  opacity: 0;
+  right: -9999px;
+}
+
+.contacts_schedule::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 20px solid #EDEDED;
+  top: -8px;
+  right: 28px;
+}
+
+
+.contacts_schedule-time, .contacts_schedule-breaks {
+  display: block;
+  color: #1E1F20;
+  font-size: 13px;
+}
+
+.contacts_schedule-time {
+  font-weight: bold;
+}
+
+.contacts__dropdown-title:hover ~ .contacts_schedule {
+  opacity: 1;
+  right: 0;
+  transition: ease;
 }
