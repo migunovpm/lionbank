@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: bounce 1.3s;
+  animation: bounce 1.3s 1s;
   opacity: 0;
   animation-fill-mode: forwards;
 }
